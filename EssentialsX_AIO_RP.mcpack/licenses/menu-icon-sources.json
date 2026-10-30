@@ -1,0 +1,288 @@
+{
+  "source": "https://github.com/microsoft/fluentui-emoji",
+  "revision": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+  "license": "MIT",
+  "transform": "ffmpeg scale=64:64:flags=lanczos, RGBA PNG; alpha preserved",
+  "assets": {
+    "account": {
+      "upstreamPath": "assets/Bust in silhouette/3D/bust_in_silhouette_3d.png",
+      "sourceSHA256": "4fe6381e0754dd1f9096fe8d0c99ca9ec7e238c43ccf0b45501f8e154a77ff56",
+      "assetSHA256": "ede0b370377833a287bfc6584fb5022832b1ad9950d6e12dd29a622a6c6fcbb6"
+    },
+    "add": {
+      "upstreamPath": "assets/Plus/3D/plus_3d.png",
+      "sourceSHA256": "d3e169258dd3e0d90886c6adb89fbcf79d5094c47a9cba8dfdc877296a696856",
+      "assetSHA256": "a45591e0d2f7b3b013c13adcee1cb8de2788158caed0f01550c588227326220f"
+    },
+    "back": {
+      "upstreamPath": "assets/Left arrow/3D/left_arrow_3d.png",
+      "sourceSHA256": "67a377760bb0dbc7b4a25fe5298125c59a11c43167d21052cb3d64c6701badd4",
+      "assetSHA256": "88b16e70ec01d45ed77703268ed83dcead49bd883c4a7adec6722a4b28f234ee"
+    },
+    "bounty": {
+      "upstreamPath": "assets/Money with wings/3D/money_with_wings_3d.png",
+      "sourceSHA256": "fbc654b97fd38b9599e300bd2ba6c032a744a01ebc16e7f71484d4b89f6041ab",
+      "assetSHA256": "717a2ca4fd25b80dd4e6ff37016a3ea17799a7fb68f5ff99277d80b6bd679a17"
+    },
+    "chat": {
+      "upstreamPath": "assets/Speech balloon/3D/speech_balloon_3d.png",
+      "sourceSHA256": "b9bdb19ef2e550923bc4f541de049f1633883619564b2aa140a968eaf1d69a0d",
+      "assetSHA256": "72ff73bf081dca9b9f4cec380ba54ca1962068b2dd7b43a81cadbc1eed8ffe1b"
+    },
+    "check": {
+      "upstreamPath": "assets/Check mark button/3D/check_mark_button_3d.png",
+      "sourceSHA256": "256e3dd950cf1705ab72511ab242472b4bd7db519aa402a6182c1aaf8c58def9",
+      "assetSHA256": "85585ee352089e78a260982a5befda0f4a0eaabee559205b9d8fb0fd06e7dd67"
+    },
+    "clan": {
+      "upstreamPath": "assets/Crossed swords/3D/crossed_swords_3d.png",
+      "sourceSHA256": "342d82ff21f3799ae05ef9f6cc33862cd72432063e072ec900c8d58013ea96a0",
+      "assetSHA256": "839469e1c3faa97084a14c4fc4fa3f1bbf90543dca3b70b9458eb04f1d1686f1"
+    },
+    "clock": {
+      "upstreamPath": "assets/Alarm clock/3D/alarm_clock_3d.png",
+      "sourceSHA256": "1aa6929e1baa440db535fd321868dc76ddd888bf3e4f4333d37800ff2ec41c74",
+      "assetSHA256": "3530698997b19abc111783a2f44ffaa0d3f8e61876b13e905449e65e67b39cf3"
+    },
+    "close": {
+      "upstreamPath": "assets/Cross mark/3D/cross_mark_3d.png",
+      "sourceSHA256": "2753b89dcd790c7f25fa3c5fd5641821860257364163abd87a2f57bb268466b9",
+      "assetSHA256": "85518944bd22be6ed7347c174dbd824b1f303929dd4ed73f2012043a8168d589"
+    },
+    "coinflip": {
+      "upstreamPath": "assets/Coin/3D/coin_3d.png",
+      "sourceSHA256": "17e2a0c226342fe2cdd2612c56f5dd188870d1435076f47600313c04876f843b",
+      "assetSHA256": "19cdc03cc35c45b47bfa422558478a09bc7f9e33baf2621622781c71da276286"
+    },
+    "coords": {
+      "upstreamPath": "assets/Compass/3D/compass_3d.png",
+      "sourceSHA256": "146e39368bbeb95049ca200ba6fca3ded48f0883bc042230d9fa1939b6aec2e7",
+      "assetSHA256": "aec4f451d32beba092e346246cc649598ec609ee283e3fcafb7454e56483c6f1"
+    },
+    "cosmetics": {
+      "upstreamPath": "assets/Top hat/3D/top_hat_3d.png",
+      "sourceSHA256": "8e8cbb3755a0165960b048250e768a3783a9d91352313a48022c3f2cf9ddfd14",
+      "assetSHA256": "3857422ca7d817f1cb696ed1691b7b46c5c800c488e6cdefe4cb92a7e19aacb5"
+    },
+    "cycle": {
+      "upstreamPath": "assets/Globe showing europe-africa/3D/globe_showing_europe-africa_3d.png",
+      "sourceSHA256": "a69baec3cc48ed5206d171f5f494e3ab06665277ec4a3acc7e6bf3962ee460ad",
+      "assetSHA256": "88427ee66db032f7289d8fc1246d578f4dc52dd27fb0d7b5a3c74ec4eb6f6414"
+    },
+    "delete": {
+      "upstreamPath": "assets/Wastebasket/3D/wastebasket_3d.png",
+      "sourceSHA256": "3aa2d93f1d14e504675da7952e3d10114036004f458d617f5f46b744235b328c",
+      "assetSHA256": "80a82752f776ef3c00cd4f3d55f8f6dd4c7515c9c00db1753e5539efee1f0dfd"
+    },
+    "dice": {
+      "upstreamPath": "assets/Game die/3D/game_die_3d.png",
+      "sourceSHA256": "454d51562973cf3af447db64832905d8f3fc3bbc7508c5a8bf79d2771edbbe4c",
+      "assetSHA256": "8baf0960ad30236ba79f479bc134467170bee8b168001e98e3ee74a1a4ff5dd8"
+    },
+    "edit": {
+      "upstreamPath": "assets/Pencil/3D/pencil_3d.png",
+      "sourceSHA256": "c33b52acc157fe010851709a6ba06ee7b9e107f9e421436c97fd4404c25dec3f",
+      "assetSHA256": "0865f3c465b8bf076b1aea2d5c5df6f2245e375a2d92be08cdf513f48990f328"
+    },
+    "eye": {
+      "upstreamPath": "assets/Eye/3D/eye_3d.png",
+      "sourceSHA256": "72637d9098e4918172b9e2b3d0001ad9fe501cbb48bf770c3469ef4bfd93f52f",
+      "assetSHA256": "4f111429dc04fdefa39dfac5a4bf36ab1fe8171e45e354997d16d38dcd9cc5e2"
+    },
+    "fire": {
+      "upstreamPath": "assets/Fire/3D/fire_3d.png",
+      "sourceSHA256": "d56355132d73df1741edcf37cb4e21ad54f1c46eeb76fa17224607abf4128c3f",
+      "assetSHA256": "0502dc1e96d8c2f5c261f811c943ced0b84d3f9f7dff1e86dddc72adbe4d8ee4"
+    },
+    "flag": {
+      "upstreamPath": "assets/Triangular flag/3D/triangular_flag_3d.png",
+      "sourceSHA256": "fe5fe3f28813fb339bb1084ddc2367522edfd9dd29bccc64809aa47f8985a2e6",
+      "assetSHA256": "d0fb3234e00537677daacead137aa4f350f745c5110485d3e90f95f3a83a6544"
+    },
+    "games": {
+      "upstreamPath": "assets/Video game/3D/video_game_3d.png",
+      "sourceSHA256": "4b01e22089defe553717d49624e673cb5492ecdd9c6a8eddb7e6ba12d400c0da",
+      "assetSHA256": "92589f0a1746571e7d7ac8714c9a47eaeed228be485353b679252c300703e6c1"
+    },
+    "gift": {
+      "upstreamPath": "assets/Wrapped gift/3D/wrapped_gift_3d.png",
+      "sourceSHA256": "fc9c446401c9fb347f4e9f47e6023247208126047d9ec32059d5e14e127fb562",
+      "assetSHA256": "d71943018e9a48d83371cea83bd91057d4313e7f2900f9874adadc1288b23602"
+    },
+    "grave": {
+      "upstreamPath": "assets/Headstone/3D/headstone_3d.png",
+      "sourceSHA256": "046213feb4cc6fd06218095e0798d8b6171424b86fa7f818d369fa18e463549b",
+      "assetSHA256": "d82938334137e97ce3401824a93139a40db567019f0d9714ade0f463a19cb9b0"
+    },
+    "heart": {
+      "upstreamPath": "assets/Red heart/3D/red_heart_3d.png",
+      "sourceSHA256": "7218cb9f08ed1ef38fcd83fe699a1125d07f50725f4c87a68cb7c9f4efb3c32b",
+      "assetSHA256": "acf609094ec1ea64135e7593fa93a92207c88323cefaec1db2644f032c65c095"
+    },
+    "hologram": {
+      "upstreamPath": "assets/Satellite antenna/3D/satellite_antenna_3d.png",
+      "sourceSHA256": "0d06d85fff90343e09ce91e75baaf3fe83f309d3f7866c4dc235fea6f706084a",
+      "assetSHA256": "4340071968da766275d45179edea9aa66d234b3a431e17953ec83e60de764434"
+    },
+    "home": {
+      "upstreamPath": "assets/House with garden/3D/house_with_garden_3d.png",
+      "sourceSHA256": "57f676a85409d18348c069cebf35b4b4082498b0ddb783c54166eac15d402b81",
+      "assetSHA256": "8fb5693042befcd5d5676c89fe5ee93ae1f855aed0276f59fa5e708c98ed66ec"
+    },
+    "inventory": {
+      "upstreamPath": "assets/Package/3D/package_3d.png",
+      "sourceSHA256": "9c7c74bb551e7f0a3a088791ac715c4ece8c45b2d1910915bc34159f148dee0e",
+      "assetSHA256": "e364dac08cebf0fb80b7df5a85ef33597fa4abd20fb6c64ab0bffbbc7cbb9408"
+    },
+    "land": {
+      "upstreamPath": "assets/World map/3D/world_map_3d.png",
+      "sourceSHA256": "f170580a2a2f70662e1de8c76d8263c33202f66f4002e57ad89c997a1b3dc488",
+      "assetSHA256": "c7cc499b7f6a1f93cb644b81059c9302e84f2acbe031c448fab13246baf4f2ec"
+    },
+    "logout": {
+      "upstreamPath": "assets/Door/3D/door_3d.png",
+      "sourceSHA256": "4c00d6d74d289a4e8689087eb809ab724bcde422b12a800e23a926dff2a657c8",
+      "assetSHA256": "1b1385d5663e3747d3a40d111736009c3ffc3ee8054ddb02aac48b9f3335f320"
+    },
+    "logs": {
+      "upstreamPath": "assets/Clipboard/3D/clipboard_3d.png",
+      "sourceSHA256": "cbe87f41d539362944c6a37aeb67387f118740eb1414377619dd8ed368a069a2",
+      "assetSHA256": "c6f60b7f4fdaa7bd78dec1d2cb23d539c2015f161588ed4f36eb6d7de2c29a5b"
+    },
+    "menu": {
+      "upstreamPath": "assets/Open book/3D/open_book_3d.png",
+      "sourceSHA256": "c6b7de9724d8ca47f900238d8cb34c2ac7346a12c8cea91c176b30f8a39d628d",
+      "assetSHA256": "443eb84335cb1712833944e336438942b5f890afcf768dd553ced8602d422c95"
+    },
+    "moon": {
+      "upstreamPath": "assets/Crescent moon/3D/crescent_moon_3d.png",
+      "sourceSHA256": "0a5b5192390983789d430e37582dfda343be19bf8246feda73108484771ba09d",
+      "assetSHA256": "3e7658ea5c36e8be81bafacd15af82e3b1b98f88f05962c6ff8eb2682af5bc3d"
+    },
+    "move": {
+      "upstreamPath": "assets/Compass/3D/compass_3d.png",
+      "sourceSHA256": "146e39368bbeb95049ca200ba6fca3ded48f0883bc042230d9fa1939b6aec2e7",
+      "assetSHA256": "aec4f451d32beba092e346246cc649598ec609ee283e3fcafb7454e56483c6f1"
+    },
+    "next": {
+      "upstreamPath": "assets/Right arrow/3D/right_arrow_3d.png",
+      "sourceSHA256": "499ad6a8d1327d60c756134fff21fc879cebd43e478a1b1d99fc07e83adca2d6",
+      "assetSHA256": "aeeb3963ae6ec29d4c3b3515c4bb85d8141eede21b1b05f0afa069208c5b2441"
+    },
+    "npc": {
+      "upstreamPath": "assets/Robot/3D/robot_3d.png",
+      "sourceSHA256": "3f9b5a00b53c8bddda36b6a3f68d00718d9d7d8c04f986a3248e55ae93a7961b",
+      "assetSHA256": "353a6ad0e1222b74b48f7bc452d4f7f4de7de5607d9b7a9e6b3121ecbeedef21"
+    },
+    "plugins": {
+      "upstreamPath": "assets/Puzzle piece/3D/puzzle_piece_3d.png",
+      "sourceSHA256": "c0f47e02e87bd61118985d8ab7b5f40fe302c82e6bb7ae6a7b7add2eefc6de7a",
+      "assetSHA256": "5c6101ad98fe73268818bc99e39034df4b2fa6d8c4ba723b41565858552cbdd4"
+    },
+    "quest": {
+      "upstreamPath": "assets/Scroll/3D/scroll_3d.png",
+      "sourceSHA256": "b977018478e81cfe8f05e46753c8c053f4380e58f0d548c27e212928c84bd27c",
+      "assetSHA256": "42cdbce48bff4e2e65fd213b81366f42f63ce0d24ebd56c304bf18a805e7cc5d"
+    },
+    "rain": {
+      "upstreamPath": "assets/Cloud with rain/3D/cloud_with_rain_3d.png",
+      "sourceSHA256": "75dd1e6fc5f6b92cbc222ab0b9c10e60f889af2b82453ba784ba0517ffd690b4",
+      "assetSHA256": "334d816ad333de49fbe11c73157f8ed2573a90d012acb6fd84a0f77110f85626"
+    },
+    "rotate": {
+      "upstreamPath": "assets/Counterclockwise arrows button/3D/counterclockwise_arrows_button_3d.png",
+      "sourceSHA256": "f43c7b042dfef8a3a288e9ee54119caaca68f3b3a85493bfaf53abfa436d471c",
+      "assetSHA256": "7b5c7131436bb38ee3cf238983ddde134ae81b0694093fcf7268fb02e2f9790a"
+    },
+    "search": {
+      "upstreamPath": "assets/Magnifying glass tilted left/3D/magnifying_glass_tilted_left_3d.png",
+      "sourceSHA256": "e8fea91e4652a36486aa9392a67873c987a13389afdae06bbcdae78ab30b4f4f",
+      "assetSHA256": "b378dd5f6bab451b0ba519403575c7ca799381ab10b8a334b4de7e4e70892c53"
+    },
+    "settings": {
+      "upstreamPath": "assets/Gear/3D/gear_3d.png",
+      "sourceSHA256": "415296d4fadabc2e0f6593143ea632948fef20a1cd73fbbc3dbda571f0421988",
+      "assetSHA256": "56f4ae1b893e594dec7014f59479a0e3076ae32626a1ec35f207b33f933f7029"
+    },
+    "shield": {
+      "upstreamPath": "assets/Shield/3D/shield_3d.png",
+      "sourceSHA256": "3c1cc1b14f8dd43e8532f9fb751769cd68382a9f25c012b0549e352a8d953a94",
+      "assetSHA256": "8e488125699ddf348c939cbc89a8d316f883369dac2c3f06f8dc5b03d33c5895"
+    },
+    "shop": {
+      "upstreamPath": "assets/Shopping cart/3D/shopping_cart_3d.png",
+      "sourceSHA256": "d91cf9705bc1dd6de0bb975d20ca48322082c982f9473cf206cf99675bd416e1",
+      "assetSHA256": "d293c1111b4d9e6440efc9b71e3a010cfaf3010d4e36d92d6a0604984ffb6567"
+    },
+    "slots": {
+      "upstreamPath": "assets/Slot machine/3D/slot_machine_3d.png",
+      "sourceSHA256": "5c483ca5eafe2386681c282fa4149b32ddfb8070c29aea50cb3c32936e3ac8f9",
+      "assetSHA256": "b6becfc08e29bb6c3f94e07bd7cd9c4d4cf5cfa4ef24c6538f100b0da9a2c689"
+    },
+    "spectator": {
+      "upstreamPath": "assets/Ghost/3D/ghost_3d.png",
+      "sourceSHA256": "2a07c00a4af13532717a201e201b7219f02ce91232ea86abd7e74cbf1b5fb42f",
+      "assetSHA256": "17d73d495e93ce9d28942285a92668f617071cbad60975ccd0031db0220d3bbb"
+    },
+    "sun": {
+      "upstreamPath": "assets/Sun/3D/sun_3d.png",
+      "sourceSHA256": "c9bb15d03d4b1e6151d97e12119ac93bbd2bcb5e713a49c1fcfc11ece54caec1",
+      "assetSHA256": "d6471795c07f5764d3872a0441a16701c7fea4ab1ec0eb73b826f1c3d2d35f45"
+    },
+    "teleport": {
+      "upstreamPath": "assets/Milky way/3D/milky_way_3d.png",
+      "sourceSHA256": "f15827e7e2ddc06e679fe5373072f7f62341e0b28e22e1d88ea419f4b3442cde",
+      "assetSHA256": "b1542d1dbda579bfb9cf445911233d851de0db2edd8ebb671308c45b461eeb56"
+    },
+    "trophy": {
+      "upstreamPath": "assets/Trophy/3D/trophy_3d.png",
+      "sourceSHA256": "7c4a9805f354eb2aec35063a95a4043306efc726324c0d128883f24497857bbc",
+      "assetSHA256": "34c5b7c4e460af879a214878733813d50be23763bd89c16c19c167f314ad643c"
+    },
+    "wallet": {
+      "upstreamPath": "assets/Money bag/3D/money_bag_3d.png",
+      "sourceSHA256": "cec19b9cf0beac5bbd27a07dcbe1e68c54b04112b4641165705ccb920f230292",
+      "assetSHA256": "115b1c898d7f0a56ebf6b64915b345c67ffc416a3263ff06313176a2e571cf61"
+    },
+    "ban": {
+      "upstreamPath": "assets/Hammer/3D/hammer_3d.png",
+      "sourceSHA256": "a021c0ea3c9525e9acbf61319b1da28f68dabb0db9e3b1e7415553045f87390c",
+      "assetSHA256": "650df8afd387b31c453e77930b201289686d6f2b6d4eb528d1a5e347b18e88dd"
+    },
+    "broadcast": {
+      "upstreamPath": "assets/Megaphone/3D/megaphone_3d.png",
+      "sourceSHA256": "78fd3bd1d93600888d4b06e157672c2dfb8058aaeb0f924fc461ca6af6e44c29",
+      "assetSHA256": "913723ffeb8047ab84cd57415fb18cbf6a24ed0a29970e34f424719d2278862d"
+    },
+    "builder": {
+      "upstreamPath": "assets/Hammer and pick/3D/hammer_and_pick_3d.png",
+      "sourceSHA256": "e253562c95df27bfd0cfaa108637fdf6c4aa1e7d10cdfcc728c7fbe4cec3dbf8",
+      "assetSHA256": "603bbd70de468c3d12a1df8c55e14f4df3b4cde30c1261bddb6b48778d43443b"
+    },
+    "lock": {
+      "upstreamPath": "assets/Locked/3D/locked_3d.png",
+      "sourceSHA256": "8c8e9209b8420ac7caf8c94fde6586044d9b91e85728aaaf4b98c2482761ea16",
+      "assetSHA256": "508b08519d80ba902f328cc44d767f3ebc8287dd40f38970362fe7c11d71afb3"
+    },
+    "mute": {
+      "upstreamPath": "assets/Muted speaker/3D/muted_speaker_3d.png",
+      "sourceSHA256": "1f0d3fde8751b531831067a0725cce15dd4b745bcafc0168b8cc0d957ac1097f",
+      "assetSHA256": "6e1245995b3be7d4c082222d71f70b3ec2d9ace5a60a6b59d30e41b3ad00376d"
+    },
+    "ranks": {
+      "upstreamPath": "assets/Crown/3D/crown_3d.png",
+      "sourceSHA256": "817095bb1423468afa155317ba04ca333957d51757a8d3326856ee8707c0edd6",
+      "assetSHA256": "5d7333f987afe13727fd0a9231657a6e9e906ce56b6c0670ee6f17aa7f87cb1e"
+    },
+    "rules": {
+      "upstreamPath": "assets/Open book/3D/open_book_3d.png",
+      "sourceSHA256": "c6b7de9724d8ca47f900238d8cb34c2ac7346a12c8cea91c176b30f8a39d628d",
+      "assetSHA256": "443eb84335cb1712833944e336438942b5f890afcf768dd553ced8602d422c95"
+    },
+    "mass": {
+      "upstreamPath": "assets/Hammer and wrench/3D/hammer_and_wrench_3d.png",
+      "sourceSHA256": "573a9abccd004b5ef5fbf513f720cc48e835c52e01563d2064b9480bb0e6ee90",
+      "assetSHA256": "d867c0cd2739cb7fe79e431c6bebe1c827905c332d413b58311446db128190e5"
+    }
+  }
+}

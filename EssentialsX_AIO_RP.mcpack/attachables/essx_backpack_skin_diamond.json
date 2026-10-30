@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "essx:backpack_skin_diamond",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/cosmetics/essx_backpack_skin_diamond"
+      },
+      "geometry": {
+        "default": "geometry.essx.backpack_skin"
+      },
+      "render_controllers": [
+        "controller.render.essx.wearable"
+      ]
+    }
+  }
+}

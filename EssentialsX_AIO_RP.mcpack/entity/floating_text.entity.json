@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "essx:floating_text",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/stone"
+      },
+      "geometry": {
+        "default": "geometry.essx_empty"
+      },
+      "render_controllers": [
+        "controller.render.essx_simple"
+      ]
+    }
+  }
+}

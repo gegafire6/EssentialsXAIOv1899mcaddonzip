@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "essx:tempest_feather"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BNB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:feather"
+      },
+      "B": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "N": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "essx:tempest_feather",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "essx:ai_player",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "essx",
+          "inanimate"
+        ]
+      },
+      "minecraft:inventory": {
+        "inventory_size": 27,
+        "container_type": "inventory",
+        "private": false,
+        "can_be_siphoned_from": false
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:persistent": {},
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      }
+    }
+  }
+}

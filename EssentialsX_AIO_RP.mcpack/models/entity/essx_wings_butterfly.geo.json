@@ -1,0 +1,120 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.essx.wings_butterfly",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 5,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "essx_cosmetic_root",
+          "binding": "'body'",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "essx_wing_left",
+          "parent": "essx_cosmetic_root",
+          "pivot": [
+            0,
+            -2,
+            2.7
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -16,
+                -14,
+                2.7
+              ],
+              "size": [
+                16,
+                18,
+                0.0625
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    32,
+                    64
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    32,
+                    0
+                  ],
+                  "uv_size": [
+                    -32,
+                    64
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "essx_wing_right",
+          "parent": "essx_cosmetic_root",
+          "pivot": [
+            0,
+            -2,
+            2.7
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -14,
+                2.7
+              ],
+              "size": [
+                16,
+                18,
+                0.0625
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    32,
+                    0
+                  ],
+                  "uv_size": [
+                    32,
+                    64
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    64,
+                    0
+                  ],
+                  "uv_size": [
+                    -32,
+                    64
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "essx:npc",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "npc_1": "textures/entity/npc/npc_1",
+        "npc_scientist_1": "textures/entity/npc/npc_scientist_1",
+        "npc_teacher_1": "textures/entity/npc/npc_teacher_1",
+        "npc_Agriculture_1": "textures/entity/npc/npc_Agriculture_1",
+        "npc_construction_1": "textures/entity/npc/npc_construction_1",
+        "npc_BusinessMobs_1": "textures/entity/npc/npc_BusinessMobs_1",
+        "npc_Kiosk_1": "textures/entity/npc/npc_Kiosk_1",
+        "npc_apiary_1": "textures/entity/npc/npc_apiary_1",
+        "npc_EverydayBusiness_1": "textures/entity/npc/npc_EverydayBusiness_1",
+        "npc_5": "textures/entity/npc/npc_5",
+        "npc_scientist_4": "textures/entity/npc/npc_scientist_4",
+        "npc_scientist_7": "textures/entity/npc/npc_scientist_7",
+        "npc_teacher_3": "textures/entity/npc/npc_teacher_3",
+        "npc_Agriculture_5": "textures/entity/npc/npc_Agriculture_5",
+        "npc_construction_3": "textures/entity/npc/npc_construction_3",
+        "npc_BusinessMobs_3": "textures/entity/npc/npc_BusinessMobs_3",
+        "npc_Kiosk_3": "textures/entity/npc/npc_Kiosk_3",
+        "npc_apiary_3": "textures/entity/npc/npc_apiary_3",
+        "npc_EverydayBusiness_3": "textures/entity/npc/npc_EverydayBusiness_3",
+        "npc_9": "textures/entity/npc/npc_9",
+        "portal_guide": "textures/entity/essx_npc/portal_guide",
+        "royal_guard": "textures/entity/essx_npc/royal_guard",
+        "banker": "textures/entity/essx_npc/banker",
+        "blacksmith": "textures/entity/essx_npc/blacksmith",
+        "quest_ranger": "textures/entity/essx_npc/quest_ranger",
+        "crystal_mage": "textures/entity/essx_npc/crystal_mage",
+        "lifesteal_warden": "textures/entity/essx_npc/lifesteal_warden",
+        "sky_pilot": "textures/entity/essx_npc/sky_pilot",
+        "market_chef": "textures/entity/essx_npc/market_chef"
+      },
+      "geometry": {
+        "default": "geometry.npc",
+        "classic": "geometry.essx_npc_classic"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          {
+            "move": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ]
+      },
+      "animations": {
+        "general": "animation.npc.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.npc.move"
+      },
+      "render_controllers": [
+        "controller.render.essx_npc"
+      ]
+    }
+  }
+}

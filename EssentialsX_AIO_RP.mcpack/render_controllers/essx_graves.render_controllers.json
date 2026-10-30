@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.essx_grave_styles": {
+      "arrays": {
+        "geometries": {
+          "Array.styles": [
+            "Geometry.gravestone",
+            "Geometry.skeleton",
+            "Geometry.coffin",
+            "Geometry.cross"
+          ]
+        }
+      },
+      "geometry": "Array.styles[query.variant]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ]
+    }
+  }
+}

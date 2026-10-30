@@ -1,0 +1,28 @@
+pack.name=EssentialsX AIO RP
+pack.description=EssentialsX All-in-One - By Opiar
+entity.essx:npc.name=NPC
+entity.essx:grave.name=Grave
+entity.essx:floating_text.name=Floating Text
+item.essx:menu=EssentialsX Menu
+item.essx:admin_menu=EssentialsX Admin Menu
+item.essx:npc_wand=NPC Edit
+item.essx:lock=EssentialsX Lock
+item.essx:builder_wand=Builder Wand
+
+item.essx:area_wand=Area Edit
+
+item.essx:backpack=Leather Backpack
+item.essx:iron_backpack=Iron Backpack
+item.essx:diamond_backpack=Diamond Backpack
+
+# Original S-Class Artifacts
+item.essx:aegis_heart=§6[S-Class] Aegis Heart
+item.essx:phoenix_ember=§6[S-Class] Phoenix Ember
+item.essx:tempest_feather=§6[S-Class] Tempest Feather
+item.essx:titan_gauntlet=§6[S-Class] Titan Gauntlet
+item.essx:void_prism=§6[S-Class] Void Prism
+item.essx:astral_compass=§6[S-Class] Astral Compass
+item.essx:dragon_fang=§6[S-Class] Dragon Fang
+item.essx:frost_relic=§6[S-Class] Frost Relic
+item.essx:ancient_crown=§6[S-Class] Ancient Crown
+item.essx:eclipse_orb=§6[S-Class] Eclipse Orb

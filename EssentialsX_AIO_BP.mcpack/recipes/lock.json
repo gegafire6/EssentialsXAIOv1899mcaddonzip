@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "essx:lock" },
+    "tags": ["crafting_table"],
+    "pattern": [" I ", "IGI", " I "],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "G": { "item": "minecraft:gold_ingot" }
+    },
+    "result": { "item": "essx:lock", "count": 1 },
+    "unlock": [{ "item": "minecraft:iron_ingot" }]
+  }
+}

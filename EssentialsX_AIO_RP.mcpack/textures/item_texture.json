@@ -1,0 +1,90 @@
+{
+  "resource_pack_name": "essx",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "essx_menu": {
+      "textures": "textures/items/essx_menu"
+    },
+    "essx_admin": {
+      "textures": "textures/items/essx_admin"
+    },
+    "essx_wand": {
+      "textures": "textures/items/essx_npc_edit"
+    },
+    "essx_lock": {
+      "textures": "textures/items/essx_lock"
+    },
+    "essx_hat_tophat": {
+      "textures": "textures/items/essx_hat_tophat"
+    },
+    "essx_hat_wizard": {
+      "textures": "textures/items/essx_hat_wizard"
+    },
+    "essx_hat_crown": {
+      "textures": "textures/items/essx_hat_crown"
+    },
+    "essx_wings_angel": {
+      "textures": "textures/items/essx_wings_angel"
+    },
+    "essx_wings_butterfly": {
+      "textures": "textures/items/essx_wings_butterfly"
+    },
+    "essx_wings_dragon": {
+      "textures": "textures/items/essx_wings_dragon"
+    },
+    "essx_builder_wand": {
+      "textures": "textures/items/essx_builder_wand"
+    },
+    "essx_area_edit": {
+      "textures": "textures/items/essx_area_edit"
+    },
+    "essx_area_grass": {
+      "textures": "textures/items/essx_area_grass"
+    },
+    "essx_area_clear": {
+      "textures": "textures/items/essx_area_clear"
+    },
+    "essx_backpack": {
+      "textures": "textures/items/essx_backpack"
+    },
+    "essx_iron_backpack": {
+      "textures": "textures/items/essx_iron_backpack"
+    },
+    "essx_diamond_backpack": {
+      "textures": "textures/items/essx_diamond_backpack"
+    },
+    "essx_aegis_heart": {
+      "textures": "textures/items/essx_aegis_heart"
+    },
+    "essx_phoenix_ember": {
+      "textures": "textures/items/essx_phoenix_ember"
+    },
+    "essx_tempest_feather": {
+      "textures": "textures/items/essx_tempest_feather"
+    },
+    "essx_titan_gauntlet": {
+      "textures": "textures/items/essx_titan_gauntlet"
+    },
+    "essx_void_prism": {
+      "textures": "textures/items/essx_void_prism"
+    },
+    "essx_astral_compass": {
+      "textures": "textures/items/essx_astral_compass"
+    },
+    "essx_dragon_fang": {
+      "textures": "textures/items/essx_dragon_fang"
+    },
+    "essx_frost_relic": {
+      "textures": "textures/items/essx_frost_relic"
+    },
+    "essx_ancient_crown": {
+      "textures": "textures/items/essx_ancient_crown"
+    },
+    "essx_eclipse_orb": {
+      "textures": "textures/items/essx_eclipse_orb"
+    },
+    "essx_server_cape": {
+      "textures": "textures/items/essx_server_cape"
+    }
+  }
+}

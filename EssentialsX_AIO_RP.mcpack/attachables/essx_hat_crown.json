@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "essx:hat_crown",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/cosmetics/essx_hat_crown"
+      },
+      "geometry": {
+        "default": "geometry.essx.hat_crown"
+      },
+      "render_controllers": [
+        "controller.render.essx.wearable"
+      ]
+    }
+  }
+}

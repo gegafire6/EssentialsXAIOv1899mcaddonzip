@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "essx:server_cape",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/models/cosmetics/essx_server_cape" },
+      "geometry": { "default": "geometry.essx.server_cape" },
+      "render_controllers": ["controller.render.essx.wearable"],
+      "animations": { "sway": "animation.essx.cosmetics.cape_sway" },
+      "scripts": { "animate": ["sway"] }
+    }
+  }
+}

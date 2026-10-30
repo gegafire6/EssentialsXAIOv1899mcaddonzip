@@ -1,0 +1,64 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "Opiar"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "§l§bEssentials§fX §eAIO §7BP",
+    "description": "§fEssentialsX All-in-One v1.8.99\n§7Server essentials, economy, land, clans, shop, auction, NPCs & admin tools\n§eCredits: By Opiar",
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ],
+    "uuid": "0b504e39-0b2a-4395-b967-bf8930de0478",
+    "version": [
+      1,
+      8,
+      99
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "21ef1101-efa7-464d-993c-8ad7c03c29ee",
+      "version": [
+        1,
+        8,
+        99
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "5759101f-4b94-4823-9f5a-40fb03d1af53",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        8,
+        99
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "21e65394-f1aa-4b05-a967-e4020886e3c5",
+      "version": [
+        1,
+        8,
+        99
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.3.0-beta"
+    }
+  ]
+}

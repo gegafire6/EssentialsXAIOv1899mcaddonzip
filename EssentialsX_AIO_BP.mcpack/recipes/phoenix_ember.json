@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "essx:phoenix_ember"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BNB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:blaze_powder"
+      },
+      "B": {
+        "item": "minecraft:ghast_tear"
+      },
+      "C": {
+        "item": "minecraft:emerald"
+      },
+      "N": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "essx:phoenix_ember",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  }
+}

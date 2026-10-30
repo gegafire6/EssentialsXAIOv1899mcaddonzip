@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "essx:backpack_skin_leather"
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "essx_backpack"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Leather Backpack Skin (Cosmetic)"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 0
+      }
+    }
+  }
+}

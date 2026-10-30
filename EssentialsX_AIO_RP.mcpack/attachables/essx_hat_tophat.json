@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "essx:hat_tophat",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/cosmetics/essx_hat_tophat"
+      },
+      "geometry": {
+        "default": "geometry.essx.hat_tophat"
+      },
+      "render_controllers": [
+        "controller.render.essx.wearable"
+      ]
+    }
+  }
+}

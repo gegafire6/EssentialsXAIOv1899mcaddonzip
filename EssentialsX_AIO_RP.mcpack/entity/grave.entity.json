@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "essx:grave",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/essx_graves/styles"
+      },
+      "geometry": {
+        "gravestone": "geometry.essx_grave_gravestone",
+        "skeleton": "geometry.essx_grave_skeleton",
+        "coffin": "geometry.essx_grave_coffin",
+        "cross": "geometry.essx_grave_cross"
+      },
+      "render_controllers": [
+        "controller.render.essx_grave_styles"
+      ]
+    }
+  }
+}

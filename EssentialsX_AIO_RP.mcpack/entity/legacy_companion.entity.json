@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "essx:ai_player",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/essx_spectator_invisible"
+      },
+      "geometry": {
+        "default": "geometry.essx_npc_classic"
+      },
+      "render_controllers": [
+        "controller.render.essx_simple"
+      ]
+    }
+  }
+}

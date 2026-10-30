@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "essx:aegis_heart"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BNB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_block"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      },
+      "C": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "N": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "essx:aegis_heart",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  }
+}

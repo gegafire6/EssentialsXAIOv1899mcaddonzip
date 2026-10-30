@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "essx:wings_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/cosmetics/essx_wings_dragon"
+      },
+      "geometry": {
+        "default": "geometry.essx.wings_dragon"
+      },
+      "render_controllers": [
+        "controller.render.essx.wearable"
+      ],
+      "animations": {
+        "flutter": "animation.essx.cosmetics.flutter"
+      },
+      "scripts": {
+        "animate": [
+          "flutter"
+        ]
+      }
+    }
+  }
+}

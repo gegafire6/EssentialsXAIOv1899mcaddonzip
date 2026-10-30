@@ -1,0 +1,95 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.essx_npc": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.npc_1",
+            "Texture.npc_scientist_1",
+            "Texture.npc_teacher_1",
+            "Texture.npc_Agriculture_1",
+            "Texture.npc_construction_1",
+            "Texture.npc_BusinessMobs_1",
+            "Texture.npc_Kiosk_1",
+            "Texture.npc_apiary_1",
+            "Texture.npc_EverydayBusiness_1",
+            "Texture.npc_5",
+            "Texture.npc_scientist_4",
+            "Texture.npc_scientist_7",
+            "Texture.npc_teacher_3",
+            "Texture.npc_Agriculture_5",
+            "Texture.npc_construction_3",
+            "Texture.npc_BusinessMobs_3",
+            "Texture.npc_Kiosk_3",
+            "Texture.npc_apiary_3",
+            "Texture.npc_EverydayBusiness_3",
+            "Texture.npc_9",
+            "Texture.portal_guide",
+            "Texture.royal_guard",
+            "Texture.banker",
+            "Texture.blacksmith",
+            "Texture.quest_ranger",
+            "Texture.crystal_mage",
+            "Texture.lifesteal_warden",
+            "Texture.sky_pilot",
+            "Texture.market_chef"
+          ]
+        },
+        "geometries": {
+          "Array.models": [
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.default",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic",
+            "Geometry.classic"
+          ]
+        }
+      },
+      "geometry": "Array.models[query.variant]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    },
+    "controller.render.essx_simple": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ]
+    }
+  }
+}

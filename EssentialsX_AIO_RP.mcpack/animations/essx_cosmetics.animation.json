@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.essx.cosmetics.flutter": {
+      "loop": true,
+      "bones": {
+        "essx_wing_left": {
+          "rotation": [
+            0,
+            "-8 - math.sin(query.life_time * 100) * 5",
+            0
+          ]
+        },
+        "essx_wing_right": {
+          "rotation": [
+            0,
+            "8 + math.sin(query.life_time * 100) * 5",
+            0
+          ]
+        }
+      }
+    },
+    "animation.essx.cosmetics.cape_sway": {
+      "loop": true,
+      "bones": {
+        "essx_cape": {
+          "rotation": [
+            "3 + math.sin(query.life_time * 65) * 2",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

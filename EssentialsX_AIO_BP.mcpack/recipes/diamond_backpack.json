@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "essx:diamond_backpack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "IDI",
+      "DBD",
+      "IDI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "item": "essx:iron_backpack"
+      }
+    },
+    "result": {
+      "item": "essx:diamond_backpack",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ]
+  }
+}

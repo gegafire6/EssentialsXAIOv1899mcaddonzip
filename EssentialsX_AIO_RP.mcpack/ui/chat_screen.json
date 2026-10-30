@@ -1,0 +1,6 @@
+{
+  "namespace": "chat",
+  "messages_text": {
+    "$chat_font_type": "default"
+  }
+}

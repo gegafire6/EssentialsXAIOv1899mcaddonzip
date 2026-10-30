@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "essx.artifact.activate": {
+      "category": "player",
+      "sounds": [
+        "sounds/essx/artifact_activate"
+      ]
+    }
+  }
+}

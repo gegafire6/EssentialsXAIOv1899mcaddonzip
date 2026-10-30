@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": { "identifier": "essx:lock", "menu_category": { "category": "items" } },
+    "components": {
+      "minecraft:icon": { "textures": { "default": "essx_lock" } },
+      "minecraft:display_name": { "value": "§l§6EssentialsX Lock\n§7Use on a door or chest\n§7Sneak + empty hand to remove" },
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": false
+    }
+  }
+}

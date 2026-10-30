@@ -1,0 +1,2681 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "spawn_category": "creature",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "component_groups": {
+      "minecraft:add_raid_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "raid_omen",
+              "duration": 30,
+              "display_on_screen_animation": true
+            }
+          ],
+          "remove_effects": "bad_omen"
+        },
+        "minecraft:timer": {
+          "time": [
+            0.0,
+            0.0
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_raid_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_raid_omen_spell_effect": {
+        "minecraft:spell_effects": {}
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        }
+      },
+      "essx:hearts_2": {
+        "minecraft:health": {
+          "value": 4,
+          "max": 4
+        }
+      },
+      "essx:hearts_3": {
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        }
+      },
+      "essx:hearts_4": {
+        "minecraft:health": {
+          "value": 8,
+          "max": 8
+        }
+      },
+      "essx:hearts_5": {
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        }
+      },
+      "essx:hearts_6": {
+        "minecraft:health": {
+          "value": 12,
+          "max": 12
+        }
+      },
+      "essx:hearts_7": {
+        "minecraft:health": {
+          "value": 14,
+          "max": 14
+        }
+      },
+      "essx:hearts_8": {
+        "minecraft:health": {
+          "value": 16,
+          "max": 16
+        }
+      },
+      "essx:hearts_9": {
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+      "essx:hearts_10": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        }
+      },
+      "essx:hearts_11": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        }
+      },
+      "essx:hearts_12": {
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        }
+      },
+      "essx:hearts_13": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        }
+      },
+      "essx:hearts_14": {
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+      "essx:hearts_15": {
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        }
+      },
+      "essx:hearts_16": {
+        "minecraft:health": {
+          "value": 32,
+          "max": 32
+        }
+      },
+      "essx:hearts_17": {
+        "minecraft:health": {
+          "value": 34,
+          "max": 34
+        }
+      },
+      "essx:hearts_18": {
+        "minecraft:health": {
+          "value": 36,
+          "max": 36
+        }
+      },
+      "essx:hearts_19": {
+        "minecraft:health": {
+          "value": 38,
+          "max": 38
+        }
+      },
+      "essx:hearts_20": {
+        "minecraft:health": {
+          "value": 40,
+          "max": 40
+        }
+      },
+      "essx:hearts_21": {
+        "minecraft:health": {
+          "value": 42,
+          "max": 42
+        }
+      },
+      "essx:hearts_22": {
+        "minecraft:health": {
+          "value": 44,
+          "max": 44
+        }
+      },
+      "essx:hearts_23": {
+        "minecraft:health": {
+          "value": 46,
+          "max": 46
+        }
+      },
+      "essx:hearts_24": {
+        "minecraft:health": {
+          "value": 48,
+          "max": 48
+        }
+      },
+      "essx:hearts_25": {
+        "minecraft:health": {
+          "value": 50,
+          "max": 50
+        }
+      },
+      "essx:hearts_26": {
+        "minecraft:health": {
+          "value": 52,
+          "max": 52
+        }
+      },
+      "essx:hearts_27": {
+        "minecraft:health": {
+          "value": 54,
+          "max": 54
+        }
+      },
+      "essx:hearts_28": {
+        "minecraft:health": {
+          "value": 56,
+          "max": 56
+        }
+      },
+      "essx:hearts_29": {
+        "minecraft:health": {
+          "value": 58,
+          "max": 58
+        }
+      },
+      "essx:hearts_30": {
+        "minecraft:health": {
+          "value": 60,
+          "max": 60
+        }
+      },
+      "essx:hearts_31": {
+        "minecraft:health": {
+          "value": 62,
+          "max": 62
+        }
+      },
+      "essx:hearts_32": {
+        "minecraft:health": {
+          "value": 64,
+          "max": 64
+        }
+      },
+      "essx:hearts_33": {
+        "minecraft:health": {
+          "value": 66,
+          "max": 66
+        }
+      },
+      "essx:hearts_34": {
+        "minecraft:health": {
+          "value": 68,
+          "max": 68
+        }
+      },
+      "essx:hearts_35": {
+        "minecraft:health": {
+          "value": 70,
+          "max": 70
+        }
+      },
+      "essx:hearts_36": {
+        "minecraft:health": {
+          "value": 72,
+          "max": 72
+        }
+      },
+      "essx:hearts_37": {
+        "minecraft:health": {
+          "value": 74,
+          "max": 74
+        }
+      },
+      "essx:hearts_38": {
+        "minecraft:health": {
+          "value": 76,
+          "max": 76
+        }
+      },
+      "essx:hearts_39": {
+        "minecraft:health": {
+          "value": 78,
+          "max": 78
+        }
+      },
+      "essx:hearts_40": {
+        "minecraft:health": {
+          "value": 80,
+          "max": 80
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:exhaustion_values": {
+        "heal": 6,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0.0,
+        "sprint": 0.1,
+        "swim": 0.01
+      },
+      "minecraft:player.saturation": {
+        "value": 5,
+        "max": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 20
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+        "push_towards_closest_space": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_mob_effect",
+                "subject": "self",
+                "value": "bad_omen"
+              },
+              {
+                "test": "is_in_village",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          },
+          "event": "minecraft:gain_raid_omen"
+        }
+      }
+    },
+    "events": {
+      "minecraft:gain_raid_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_raid_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_raid_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_raid_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_raid_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "essx:hearts_2": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_2"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_3": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_3"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_4": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_4"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_5": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_5"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_6": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_6"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_7": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_7"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_8": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_8"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_9": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_9"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_10": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_10"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_11": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_11"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_12": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_12"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_13": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_13"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_14": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_14"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_15": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_15"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_16": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_16"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_17": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_17"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_18": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_18"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_19": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_19"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_20": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_20"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_21": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_21"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_22": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_22"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_23": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_23"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_24": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_24"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_25": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_25"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_26": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_26"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_27": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_27"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_28": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_28"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_29": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_29"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_30": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_30"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_31": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_31"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_32": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_32"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_33": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_33"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_34": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_34"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_35": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_35"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_36": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_36"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_37": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_37"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_38": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_38"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_39": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_39"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_40": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "essx:hearts_2",
+                "essx:hearts_3",
+                "essx:hearts_4",
+                "essx:hearts_5",
+                "essx:hearts_6",
+                "essx:hearts_7",
+                "essx:hearts_8",
+                "essx:hearts_9",
+                "essx:hearts_10",
+                "essx:hearts_11",
+                "essx:hearts_12",
+                "essx:hearts_13",
+                "essx:hearts_14",
+                "essx:hearts_15",
+                "essx:hearts_16",
+                "essx:hearts_17",
+                "essx:hearts_18",
+                "essx:hearts_19",
+                "essx:hearts_20",
+                "essx:hearts_21",
+                "essx:hearts_22",
+                "essx:hearts_23",
+                "essx:hearts_24",
+                "essx:hearts_25",
+                "essx:hearts_26",
+                "essx:hearts_27",
+                "essx:hearts_28",
+                "essx:hearts_29",
+                "essx:hearts_30",
+                "essx:hearts_31",
+                "essx:hearts_32",
+                "essx:hearts_33",
+                "essx:hearts_34",
+                "essx:hearts_35",
+                "essx:hearts_36",
+                "essx:hearts_37",
+                "essx:hearts_38",
+                "essx:hearts_39",
+                "essx:hearts_40"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "essx:hearts_40"
+              ]
+            }
+          }
+        ]
+      },
+      "essx:hearts_reset": {
+        "remove": {
+          "component_groups": [
+            "essx:hearts_2",
+            "essx:hearts_3",
+            "essx:hearts_4",
+            "essx:hearts_5",
+            "essx:hearts_6",
+            "essx:hearts_7",
+            "essx:hearts_8",
+            "essx:hearts_9",
+            "essx:hearts_10",
+            "essx:hearts_11",
+            "essx:hearts_12",
+            "essx:hearts_13",
+            "essx:hearts_14",
+            "essx:hearts_15",
+            "essx:hearts_16",
+            "essx:hearts_17",
+            "essx:hearts_18",
+            "essx:hearts_19",
+            "essx:hearts_20",
+            "essx:hearts_21",
+            "essx:hearts_22",
+            "essx:hearts_23",
+            "essx:hearts_24",
+            "essx:hearts_25",
+            "essx:hearts_26",
+            "essx:hearts_27",
+            "essx:hearts_28",
+            "essx:hearts_29",
+            "essx:hearts_30",
+            "essx:hearts_31",
+            "essx:hearts_32",
+            "essx:hearts_33",
+            "essx:hearts_34",
+            "essx:hearts_35",
+            "essx:hearts_36",
+            "essx:hearts_37",
+            "essx:hearts_38",
+            "essx:hearts_39",
+            "essx:hearts_40"
+          ]
+        }
+      }
+    }
+  }
+}

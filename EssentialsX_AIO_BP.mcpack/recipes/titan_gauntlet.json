@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "essx:titan_gauntlet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BNB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_block"
+      },
+      "B": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "N": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "essx:titan_gauntlet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  }
+}
