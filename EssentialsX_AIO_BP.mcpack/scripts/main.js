@@ -1,7 +1,7 @@
 // =====================================================
 //  EssentialsX All-in-One for Minecraft Bedrock
 //  Credits: By Opiar
-//  Version 1.1.0 | @minecraft/server 2.11.0-beta
+//  Version 1.26.60 | @minecraft/server 2.11.0
 // =====================================================
 import { world, system } from "@minecraft/server";
 import { flush } from "./core/db.js";
