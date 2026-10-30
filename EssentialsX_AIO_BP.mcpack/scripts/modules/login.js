@@ -137,7 +137,7 @@ world.afterEvents.playerSpawn.subscribe((ev) => {
   authed.delete(p.id);
   lock(p);
 });
-world.beforeEvents.playerLeave.subscribe((ev) => {
+world.afterEvents.playerLeave.subscribe((ev) => {
   const id = ev.player.id;
   const a = DB.auth.get(id);
   if (a && authed.has(id)) { a.lastSeen = now(); DB.auth.set(id, a); }

@@ -395,7 +395,7 @@ system.runInterval(() => {
 }, 20);
 tpHooks.canTeleport.push((p) => (mod("combat") && cfg().combat.blockTeleport && inCombat(p) && !isAdmin(p) ? "You can't teleport while in combat." : undefined));
 hooks.beforeCommand.push((p, c) => (mod("combat") && inCombat(p) && !isAdmin(p) && ["spawn", "home", "warp", "tpa", "rtp", "back", "tpaccept"].includes(c.name) && cfg().combat.blockTeleport ? "Not while in combat." : undefined));
-world.beforeEvents.playerLeave.subscribe((ev) => {
+world.afterEvents.playerLeave.subscribe((ev) => {
   const p = ev.player;
   if (!mod("combat") || !inCombat(p) || !cfg().combat.killOnLogout) return;
   const id = p.id, name = p.name;

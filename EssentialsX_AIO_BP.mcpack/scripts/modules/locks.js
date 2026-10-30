@@ -160,4 +160,4 @@ world.beforeEvents.explosion.subscribe((event) => {
   const keep = blocks.filter((block) => !protectedLock(block));
   if (keep.length !== blocks.length) event.setImpactedBlocks(keep);
 });
-world.beforeEvents.playerLeave.subscribe((event) => warnings.delete(event.player.id));
+world.afterEvents.playerLeave.subscribe((event) => warnings.delete(event.player.id));

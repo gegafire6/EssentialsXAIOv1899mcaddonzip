@@ -445,7 +445,7 @@ world.afterEvents.playerBreakBlock.subscribe((ev) => {
   }
 });
 
-world.beforeEvents.playerLeave.subscribe((ev) => { state.delete(ev.player.id); live.delete(ev.player.id); guards.clear(ev.player.id);
+world.afterEvents.playerLeave.subscribe((ev) => { state.delete(ev.player.id); live.delete(ev.player.id); guards.clear(ev.player.id);
   for (const key of lastAlert.keys()) if (key.startsWith(ev.player.id)) lastAlert.delete(key); });
 world.afterEvents.playerSpawn.subscribe((ev) => resetPositionEvidence(ev.player));
 

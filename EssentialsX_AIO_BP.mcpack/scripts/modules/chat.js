@@ -93,7 +93,7 @@ world.afterEvents.playerSpawn.subscribe((ev) => {
   if (c.joinMessage) broadcast(c.joinMessage.replace("{name}", p.name));
   log("join", p.name + (first ? " (first join)" : ""));
 });
-world.beforeEvents.playerLeave.subscribe((ev) => {
+world.afterEvents.playerLeave.subscribe((ev) => {
   const name = ev.player.name; const id = ev.player.id;
   system.run(() => {
     const d = DB.players.get(id);
