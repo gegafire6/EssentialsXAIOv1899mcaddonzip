@@ -8,17 +8,17 @@
   },
   "header": {
     "name": "§l§bEssentials§fX §eAIO §7RP",
-    "description": "§fEssentialsX All-in-One v1.8.99 resources\n§eCredits: By Opiar",
+    "description": "§fEssentialsX All-in-One v1.26.60 resources\n§eCredits: By Opiar",
     "min_engine_version": [
       1,
-      21,
-      90
+      26,
+      60
     ],
     "uuid": "21e65394-f1aa-4b05-a967-e4020886e3c5",
     "version": [
       1,
-      8,
-      99
+      26,
+      60
     ]
   },
   "modules": [
@@ -27,8 +27,8 @@
       "uuid": "ae476068-e751-4dae-8b9c-ef11feed58d9",
       "version": [
         1,
-        8,
-        99
+        26,
+        60
       ]
     }
   ],
@@ -37,8 +37,8 @@
       "uuid": "0b504e39-0b2a-4395-b967-bf8930de0478",
       "version": [
         1,
-        8,
-        99
+        26,
+        60
       ]
     }
   ]
